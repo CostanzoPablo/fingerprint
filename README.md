@@ -1,7 +1,12 @@
-1) Install IntelliJ Community
-	https://www.jetbrains.com/idea/download/other.html
+# Fingeprint demo with Java. Post work request (for match) from Python.
 
-2) Download generated spring initializr
+# 1) Install IntelliJ Community
+```
+	https://www.jetbrains.com/idea/download/other.html
+```
+
+# 2) Download generated spring initializr
+```
 	https://start.spring.io/
 
 	Project: Maven
@@ -9,11 +14,15 @@
 	Spring Boot: 3.3.4
 	Packaging: War
 	Java: 23
+```
 
-3) Unzip and open with IntelliJ
+# 3) Unzip and open with IntelliJ
+```
 	Set Java SDK 23 (click download if not exists)
+```
 
-4) Run, Edit Configurations, Maven
+# 4) Run, Edit Configurations, Maven
+```
 	Search: spring-boot-run
 		OK
 	Open pom.xml and Add into dependencies:
@@ -22,9 +31,12 @@
 			<artifactId>sourceafis</artifactId>
 			<version>3.18.1</version>
 		</dependency>
+```
 
-5) Run proyect
+# 6) Run project
 
-6) Run python demo.py
+# 7) Run python demo.py
 
+```
 More info: https://sourceafis.machinezoo.com/java
+```
